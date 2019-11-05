@@ -1,0 +1,243 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxQHBg8IBxMQDg0RDhYPDQ0NFRAIDQgPFRcWFhcRFxMYHiggGBolGxUTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGA8PGi0dHR0tLS0tKy03Li0tKy0rNy0tLS0rLS8tLisrKysrLSstKystKzcrKysrKysrKysrKysrK//AABEIAOEA4QMBEQACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAAAQQFAwIH/8QAJxAAAgEEAwEBAQACAgMAAAAAAAFRAhMUYRGRobES8AQxA3EyQeH/xAAYAQEAAwEAAAAAAAAAAAAAAAAAAQIDBP/EABsRAQACAwEBAAAAAAAAAAAAAAABEgIRE1Ex/9oADAMBAAIRAxEAPwD6+dDlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABX/TlltQz3J+nLGoNyfpyxqDcn6csag3J+nLGoNyfpyxqDcn6csag3J+nLGoNyfpyxqDcn6csag3J+nLGoNyfpyxqDcn6csag3J+nLGoNyfpyxqDcn6csag3J+nLGoNyfpyxqDcn6csag3J+nLGoNyfpyxqDcn6csag3J+nLGoNyfpyxqDcn6csag3J+nLGoNyfpyxqDcn6csag3J+nLGoNy62dkWWoWdixQs7FihZ2LFCzsWKFnYsULOxYoWdixQs7FihZ2LFCzsWKFnYsULOxYoWdixQs7FihZ2LFCzsWKFnYsULOxYoWdixQs7FihZ2LFCzsWKFnYsULOxYoWdixQs7FihZ2LFCzsWKJvLZGk2gvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0WgvLY0Whx4LKaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaOAaXDNsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACnyaMTkByA5AcgOQHIDkByA5AcgOQHIDkByA5AcgOQHIDkByA5AcgOQHIDkByA5Acgd7C2VtLSkFhb8FpKQWFvwWkpBYW/BaSkFhb8FpKQWFvwWkpBYW/BaSkFhb8FpKQWFvwWkpBYW/BaSkFhb8FpKQWFvwWkpBYW/BaSkFhb8FpKQWFvwWkpBYW/BaSkFhb8FpKQWFvwWkpBYW/BaSkFhb8FpKQWFvwWkpBYW/BaSkFhb8FpKQWFvwWkpBYW/BaSkFhb8FpKQWFvwWkpBYW/BaSkFhb8FpKQjI16KouZGvRVNzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16KlzI16Kl3K24ZbcKVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVktuGNwVld5Mm2zkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkGzkG1A1YBIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFzHp4/8ArMrS2pBj0/zYtJTEx6f5sWkpiY9P82LSUxMen+bFpKYmPT/Ni0lMTHp/mxaSmJj0/wA2LSUxMen+bFpKYmPT/Ni0lMTHp/mxaSmJj0/zYtJTEx6f5sWkpiY9P82LSUxMen+bFpKYmPT/ADYtJTEx6f5sWkpiY9P82LSUxMen+bFpKYmPT/Ni0lMTHp/mxaSmJj0/zYtJTEx6f5sWkpiY9P8ANi0lMTHp/mxaSmJj0/zYtJTEx6f5sWkpiY9P82LSUxMen+bFpKYuWS4XpakK9JMlwvRSDpJkuF6KQdJMlwvRSDpJkuF6KQdJMlwvRSDpJkuF6KQdJMlwvRSDpJkuF6KQdJMlwvRSDpJkuF6KQdJMlwvRSDpJkuF6KQdJMlwvRSDpJkuF6KQdJMlwvRSDpJkuF6KQdJMlwvRSDpJkuF6KQdJMlwvRSDpJkuF6KQdJMlwvRSDpJkuF6KQdJMlwvRSDpJkuF6KQdJMlwvRSDpJkuF6KQdJMlwvRSDpJkuF6KQdJebFUeom0K0yMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyMeqPULQUyW1/yLj/a7RlqW1oLildoalNoLildoaktBcUrtDUloLildoaktBcUrtDUloLildoaktBcUrtDUloLildoaktBcUrtDUloLildoaktBcUrtDUloLildoaktBcUrtDUloLildoaktBcUrtDUloLildoaktBcUrtDUloLildoaktBcUrtDUloLildoaktBcUrtDUloLildoaktBcUrtDUloLildoaktBcUrtDUloLildoaktBcUrtDUloLildoaktDPNnMEoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQX/BTx/pGFpdNMfE2KYQtJTHwsUwhaSmPhYphC0lMfCxTCFpKY+FimELSUx8LFMIWkpj4WKYQtJTHwsUwhaSmPhYphC0lMfCxTCFpKY+FimELSUx8LFMIWkpj4WKYQtJTHwsUwhaSmPhYphC0lMfCxTCFpKY+FimELSUx8LFMIWkpj4WKYQtJTHwsUwhaSmPhYphC0lMfCxTCFpKY+FimELSUx8LFMIWkpj4WKYQtJTHwsUwhaSmPhYphC0lMfCxTCFpKY+KmTVro0pDLpKcqrXQpB0kyqtdCkHSTKq10KQdJMqrXQpB0kyqtdCkHSTKq10KQdJMqrXQpB0kyqtdCkHSTKq10KQdJMqrXQpB0kyqtdCkHSTKq10KQdJMqrXQpB0kyqtdCkHSTKq10KQdJMqrXQpB0kyqtdCkHSTKq10KQdJMqrXQpB0kyqtdCkHSTKq10KQdJMqrXQpB0kyqtdCkHSTKq10KQdJMqrXQpB0kyqtdCkHSTKq10KQdJMqrXQpB0lK/xKnHYvCeeRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWRiVa7F4OWSyv8inj/AH9M6y0vj6ZFM/RWS+PpkUz9FZL4+mRTP0Vkvj6ZFM/RWS+PpkUz9FZL4+mRTP0Vkvj6ZFM/RWS+PpkUz9FZL4+mRTP0Vkvj6ZFM/RWS+PpkUz9FZL4+mRTP0Vkvj6ZFM/RWS+PpkUz9FZL4+mRTP0Vkvj6ZFM/RWS+PpkUz9FZL4+mRTP0Vkvj6ZFM/RWS+PpkUz9FZL4+mRTP0Vkvj6ZFM/RWS+PpkUz9FZL4+mRTP0Vkvj6ZFM/RWS+PpkUz9FZL4+mRTP0Vkvj6ZFM/RWS+PrONnOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADUX/GuP9LpHPuXVWPE21C6Q3Kax4W1C6Q3JWPC2oXSG5Kx4W1C6Q3JWPC2oXSG5Kx4W1C6Q3JWPC2oXSG5Kx4W1C6Q3JWPC2oXSG5Kx4W1C6Q3JWPC2oXSG5Kx4W1C6Q3JWPC2oXSG5Kx4W1C6Q3JWPC2oXSG5Kx4W1C6Q3JWPC2oXSG5Kx4W1C6Q3JWPC2oXSG5Kx4W1C6Q3JWPC2oXSG5Kx4W1C6Q3JWPC2oXSG5Kx4W1C6Q3JWPC2oXSG5Kx4W1C6Q3JWPC2oXSG5Kx4W1C6Q3JWPGfkVT8NqYufpl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl6ZFU/BTEvl67L/BbX+0V6wtxn0wXKHWPE8Z9MFyh1jw4z6YLlDrHhxn0wXKHWPDjPpguUOseHGfTBcodY8OM+mC5Q6x4cZ9MFyh1jw4z6YLlDrHhxn0wXKHWPDjPpguUOseHGfTBcodY8OM+mC5Q6x4cZ9MFyh1jw4z6YLlDrHhxn0wXKHWPDjPpguUOseHGfTBcodY8OM+mC5Q6x4cZ9MFyh1jw4z6YLlDrHhxn0wXKHWPDjPpguUOseHGfTBcodY8OM+mC5Q6x4cZ9MFyh1jw4z6YLlDrHhxn0wXKHWPDjPrqv8ylL/wB9FecrdcU5lO+hSU9cTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcTMp30KSdcWcbuUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGzR/4r/o5HdHxPAScAOAHADgBwA4AcAOAHADgBwA4AcAOAHADgBwA4AcAOAHADgBwA4AcAOAHAEf8f8A4r/oIj49BIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/Z")
+}
+
+h1 {
+  font-family: georgia;
+  font-style: bold;
+  color: #333;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: andale mono;
+  color: #ffffff;
+  font-size: 30px;
+  background-color: #6c146b;
+  border-radius: 20px;
+  opacity: 0.85;
+}
+
+h3 {
+  font-family: andale mono;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #6c146b;
+}
+
+h4 {
+  font-family: andale mono;
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%; 
+  height:auto;
+  border-radius: 20px;
+}
+
+/* Navbar container */
+.navbar {
+  margin-top: 20px;
+  background-color: #333;
+  font-family: lucida console;
+  border-radius: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  display: flex;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 25px 35px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 25px 35px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #b471b4;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.slideshow-container{
+  padding-top: 20px;
+  max-width:850px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides{
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size:18px; 
+  transition: 0.6s ease; 
+  border-radius: 0 3px 3px 0; 
+  user-select: none;
+}
+
+.next{
+  right: 0; 
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.button {
+  height: 30px;
+  width: 70px;
+  position: absolute;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px teal;
+  cursor: pointer;
+}
+
+.form {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4 ease-in-out}
+  to {opacity: 1 ease-in-out}
+}
+
+@keyframes fade {
+  from {opacity: .4 ease-in-out}
+  to {opacity: 1}
+}
+form {
+  display: table;
+}
+
+th {
+  text-align: center;
+}
+.social-icon{
+  display: inline-block;
+  margin: 0.5px;
+  width: 40px;
+  float: right;
+}
+
+.mission{
+  background-color:#6c146b;
+  border: 1px solid grey;
+  border-radius: 20px;
+  
+.description {
+    opacity: 0.8;
+  }
+}
+
+li {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: andale mono;
+}
+p {
+  font-family: andale mono;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 500px;
+}
+
+footer {
+  padding-top: 30px;
+}
+
+.par {
+  background-color: white;
+  border-radius: 20px;
+}
